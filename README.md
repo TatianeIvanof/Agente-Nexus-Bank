@@ -267,9 +267,7 @@ Após a inicialização, o Streamlit disponibilizará a aplicação localmente.
 
 📌 **Fonte consultada:** `Nexus_Bank_FAQ_Transacoes_e_Limites.pdf – seção “Pix Noturno (20:00 às 06:00)”.`
 
-<p align="center">
-  <img src="images/screenshot1.png" alt="Consulta ao agente Nexus Bank" width="850">
-</p>
+<img src="./images/screenshot1.PNG" alt = "Consulta ao agente Nexus Bank" width="850">
 
 ---
 
@@ -285,9 +283,7 @@ Após a inicialização, o Streamlit disponibilizará a aplicação localmente.
 
 📌 **Fonte consultada:** `Nexus_Bank_Politica_Anticorrupcao_Brindes.pdf – tabela “Item – Valor Limite Permitido – Aprovação Exigida”.`
 
-<p align="center">
-  <img src="images/screenshot2.png" alt="Consulta ao agente Nexus Bank" width="850">
-</p>
+<img src="./images/screenshot2.PNG" alt="Consulta ao agente Nexus Bank" width="850">
 
 ---
 
@@ -303,8 +299,7 @@ Após a inicialização, o Streamlit disponibilizará a aplicação localmente.
 
 Esse mecanismo evita que o agente apresente como fato uma informação que não esteja disponível na base documental.
 
-<p align="center">
-  <img src="images/screenshot3.png" alt="Consulta ao agente Nexus Bank" width="850">
+<img src="./images/screenshot3.PNG" alt="Consulta ao agente Nexus Bank" width="850">
 </p>
 
 ---
@@ -386,7 +381,7 @@ docs/
 └── screenshot.png
 ```
 <p align="center">
-  <img src="images/screenshot0.png" alt="Consulta ao agente Nexus Bank" width="850">
+  <img src="./images/screenshot0.PNG" alt="Consulta ao agente Nexus Bank" width="850">
 </p>
 
 Exemplo para inserir uma imagem no README:
