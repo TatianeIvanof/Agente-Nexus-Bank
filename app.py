@@ -21,7 +21,7 @@ st.title("🏦 Nexus Bank - Base de Conhecimento Interna")
 st.caption("Agente Inteligente de Atendimento ao Colaborador | Powered by Groq & RAG")
 
 # Validação da API Key
-groq_api_key = get_groq_api_key()
+groq_api_key = os.getenv("GROQ_API_KEY")
 
 if not groq_api_key:
     groq_api_key = st.sidebar.text_input("Insira sua Groq API Key:", type="password")
