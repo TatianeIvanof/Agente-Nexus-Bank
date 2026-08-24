@@ -125,10 +125,24 @@ nexus-bank-agent/
 ├── README.md             # Documentação do projeto
 │
 └── docs/                 # Documentos internos utilizados pelo agente
-    ├── politica_lgpd.pdf
-    ├── termos_conta_digital.docx
-    ├── faq_pix_limites.csv
-    └── codigo_etica.md
+    ├── Política de Privacidade e Proteção de Dados (LGPD).pdf
+    ├── Termos e Condições de Uso da Conta Digital.pdf
+    ├── Perguntas Frequentes (FAQ) - Transações e Limites.pdf
+    ├── Política de Segurança e Prevenção a Fraudes.pdf
+    ├── Tabela de Tarifas e Comissões do Serviço.pdf
+    ├── Política de PLD/FTP.pdf
+    ├── Política de KYC (Know Your Customer).pdf
+    ├── Política de KYP e KYE (Know Your Partner & Employee).pdf
+    ├── Política de Uso de Nuvem e Terceirização.pdf
+    ├── Código de Ética e Conduta.pdf
+    ├── Política de Gerenciamento de Riscos Integrados (GIR).pdf
+    ├── Política de Prevenção a Conflitos de Interesses.pdf
+    ├── Política de Brindes, Hospitalidades e Anticorrupção.pdf
+    ├── Política de Relacionamento com o Cliente.pdf
+    ├── Política de Cobrança de Tarifas.pdf
+    ├── Política de Brindes, Hospitalidades e Anticorrupção.pdf
+    ├── Política de Transparência Fiscal (e-Financeira).pdf
+    ├── Política de Gestão de Pessoas e RH.pdf
 ```
 
 ---
@@ -169,7 +183,7 @@ __pycache__/
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/SEU_USUARIO/nexus-bank-agent.git
+git clone https://github.com/TatianeIvanof/nexus-bank-agent.git
 
 cd nexus-bank-agent
 ```
@@ -249,9 +263,11 @@ Após a inicialização, o Streamlit disponibilizará a aplicação localmente.
 
 **Resposta esperada:**
 
-> O limite e as regras aplicáveis ao Pix noturno devem ser consultados nos documentos internos disponibilizados ao agente. A resposta será baseada nas informações encontradas nesses documentos.
+> O Pix noturno tem limite padrão de R$ 1.000,00 por período, conforme a regulamentação do Banco Central, e pode ser utilizado no horário das 20:00 às 06:00.
 
-📌 **Fonte consultada:** `faq_pix_limites.csv`
+📌 **Fonte consultada:** `Nexus_Bank_FAQ_Transacoes_e_Limites.pdf – seção “Pix Noturno (20:00 às 06:00)”.`
+
+![Demonstração Resposta Operações e Transações da Nexus Bank Agent](docs/screenshot1.png)
 
 ---
 
@@ -263,9 +279,11 @@ Após a inicialização, o Streamlit disponibilizará a aplicação localmente.
 
 **Resposta esperada:**
 
-> De acordo com a documentação interna recuperada pelo agente, será apresentada a regra aplicável ao recebimento de brindes e hospitalidades, juntamente com a respectiva fonte documental.
+> O valor máximo permitido para o recebimento de brindes ou hospitalidades pelos colaboradores é R$ 500,00 (para presentes de relacionamento comercial), sendo necessária aprovação prévia.
 
-📌 **Fonte consultada:** `codigo_etica.md`
+📌 **Fonte consultada:** `Nexus_Bank_Politica_Anticorrupcao_Brindes.pdf – tabela “Item – Valor Limite Permitido – Aprovação Exigida”.`
+
+![Demonstração Resposta Compliance e Governança da Nexus Bank Agent](docs/screenshot2.png)
 
 ---
 
@@ -277,7 +295,9 @@ Após a inicialização, o Streamlit disponibilizará a aplicação localmente.
 
 **Resposta esperada:**
 
-> Não encontrei essa informação nos documentos internos disponibilizados para consulta. Recomendo consultar a área responsável ou os documentos corporativos relacionados ao tema.
+> Não encontrei essa informação nos documentos internos do Nexus Bank. Por favor, consulte o departamento responsável (RH, TI, Financeiro ou Jurídico).
+
+![Demonstração Resposta Compliance e Governança da Nexus Bank Agent](docs/screenshot3.png)
 
 Esse mecanismo evita que o agente apresente como fato uma informação que não esteja disponível na base documental.
 
@@ -359,13 +379,14 @@ Adicione aqui uma imagem ou GIF demonstrando a execução da aplicação:
 docs/
 └── screenshot.png
 ```
+![Demonstração do Nexus Bank Agent](docs/screenshot0.png)
 
 Exemplo para inserir uma imagem no README:
 
 ```markdown
 ![Demonstração do Nexus Bank Agent](docs/screenshot.png)
 ```
-
+![Demonstração de perguntas e Respostas da apliacação](docs/Nexus Bank - Agente Corporativo · Streamlit.pdf)
 ---
 
 ## ☁️ Deploy na Streamlit Cloud
@@ -406,7 +427,7 @@ A chave deve ser configurada como **Secret**, e não diretamente no código-font
 
 **Link de acesso:**
 
-https://agente-nexus-bank-nmfa9pvqrl9xphavkekehr.streamlit.app/
+https://nexus-bank-agent.streamlit.app
 
 > **Observação:** substitua o endereço acima pelo endereço real da aplicação após realizar o deploy.
 
@@ -457,9 +478,7 @@ O projeto pode evoluir para uma arquitetura corporativa mais completa, incluindo
 
 ## ⚠️ Aviso Importante
 
-O Nexus Bank Agent é uma ferramenta de apoio à consulta de informações.
-
-As respostas devem ser utilizadas em conjunto com os documentos oficiais e políticas corporativas vigentes. Em situações que envolvam decisões regulatórias, jurídicas, financeiras, de compliance ou outras situações críticas, deve-se consultar a área responsável e a documentação oficial aplicável.
+O Nexus Bank Agent é uma ferramenta de apoio à consulta de informações em uma empresa fictícia.
 
 ---
 
