@@ -21,7 +21,7 @@ st.title("🏦 Nexus Bank - Base de Conhecimento Interna")
 st.caption("Agente Inteligente de Atendimento ao Colaborador | Powered by Groq & RAG")
 
 # Validação da API Key
-groq_api_key = os.getenv("GROQ_API_KEY")
+groq_api_key = get_groq_api_key()
 
 if not groq_api_key:
     groq_api_key = st.sidebar.text_input("Insira sua Groq API Key:", type="password")
@@ -30,21 +30,12 @@ if not groq_api_key:
     st.warning("⚠️ Insira a variável GROQ_API_KEY no arquivo .env, nos Secrets do Streamlit ou na barra lateral.")
     st.stop()
 
-# Inicialização do Engine RAG (carregamento automático da pasta /docs)
-@st.cache_resource(show_spinner="Carregando documentos da pasta /docs...")
+# Inicialização do Engine RAG em segundo plano (lê os documentos sem exibir lista)
+@st.cache_resource(show_spinner="Carregando base de conhecimento...")
 def init_rag():
     return RAGEngine()
 
 rag_engine = init_rag()
-
-# Exibição dos documentos carregados na barra lateral
-st.sidebar.title("📚 Documentos Carregados")
-if rag_engine.documents:
-    sources_summary = set(doc.metadata.get("source") for doc in rag_engine.documents)
-    for src in sources_summary:
-        st.sidebar.markdown(f"- 📄 `{src}`")
-else:
-    st.sidebar.error("Nenhum documento encontrado na pasta `docs/`!")
 
 # Histórico de Chat
 if "messages" not in st.session_state:
