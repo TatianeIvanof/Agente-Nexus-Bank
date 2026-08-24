@@ -267,6 +267,10 @@ Após a inicialização, o Streamlit disponibilizará a aplicação localmente.
 
 📌 **Fonte consultada:** `Nexus_Bank_FAQ_Transacoes_e_Limites.pdf – seção “Pix Noturno (20:00 às 06:00)”.`
 
+<p align="center">
+  <img src="images/consulta_agente.png" alt="Consulta ao agente Nexus Bank" width="850">
+</p>
+
 ![Demonstração Resposta Operações e Transações da Nexus Bank Agent](docs/screenshot1.png)
 
 ---
