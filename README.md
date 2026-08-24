@@ -374,22 +374,25 @@ Quando não houver evidência documental suficiente, o agente deve evitar criar 
 
 ## 📸 Demonstração da Aplicação
 
-Adicione aqui uma imagem ou GIF demonstrando a execução da aplicação:
+Imagem demonstrando a execução da aplicação:
 
-```text
-docs/
-└── screenshot.png
-```
 <p align="center">
   <img src="./images/screenshot0.PNG" alt="Consulta ao agente Nexus Bank" width="850">
 </p>
 
-Exemplo para inserir uma imagem no README:
+Perguntas e respostas da aplicação:
 
-```markdown
-![Demonstração do Nexus Bank Agent](docs/screenshot.png)
-```
-[Demonstração de perguntas e Respostas da apliacação](docs/Nexus Bank - Agente Corporativo · Streamlit.pdf)
+<p align="center">
+
+📄 **Documentação Técnica do Projeto**
+
+<br>
+
+<a href="./docs/Nexus Bank - Agente Corporativo · Streamlit.pdf">
+  <strong>📥 Visualizar Documentação em PDF</strong>
+</a>
+
+</p>
 ---
 
 ## ☁️ Deploy na Streamlit Cloud
