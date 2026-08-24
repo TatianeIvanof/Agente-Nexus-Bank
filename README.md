@@ -268,10 +268,8 @@ Após a inicialização, o Streamlit disponibilizará a aplicação localmente.
 📌 **Fonte consultada:** `Nexus_Bank_FAQ_Transacoes_e_Limites.pdf – seção “Pix Noturno (20:00 às 06:00)”.`
 
 <p align="center">
-  <img src="images/consulta_agente.png" alt="Consulta ao agente Nexus Bank" width="850">
+  <img src="images/screenshot1.png" alt="Consulta ao agente Nexus Bank" width="850">
 </p>
-
-![Demonstração Resposta Operações e Transações da Nexus Bank Agent](docs/screenshot1.png)
 
 ---
 
@@ -287,7 +285,9 @@ Após a inicialização, o Streamlit disponibilizará a aplicação localmente.
 
 📌 **Fonte consultada:** `Nexus_Bank_Politica_Anticorrupcao_Brindes.pdf – tabela “Item – Valor Limite Permitido – Aprovação Exigida”.`
 
-![Demonstração Resposta Compliance e Governança da Nexus Bank Agent](docs/screenshot2.png)
+<p align="center">
+  <img src="images/screenshot2.png" alt="Consulta ao agente Nexus Bank" width="850">
+</p>
 
 ---
 
@@ -301,9 +301,11 @@ Após a inicialização, o Streamlit disponibilizará a aplicação localmente.
 
 > Não encontrei essa informação nos documentos internos do Nexus Bank. Por favor, consulte o departamento responsável (RH, TI, Financeiro ou Jurídico).
 
-![Demonstração Resposta Compliance e Governança da Nexus Bank Agent](docs/screenshot3.png)
-
 Esse mecanismo evita que o agente apresente como fato uma informação que não esteja disponível na base documental.
+
+<p align="center">
+  <img src="images/screenshot3.png" alt="Consulta ao agente Nexus Bank" width="850">
+</p>
 
 ---
 
@@ -383,14 +385,16 @@ Adicione aqui uma imagem ou GIF demonstrando a execução da aplicação:
 docs/
 └── screenshot.png
 ```
-![Demonstração do Nexus Bank Agent](docs/screenshot0.png)
+<p align="center">
+  <img src="images/screenshot0.png" alt="Consulta ao agente Nexus Bank" width="850">
+</p>
 
 Exemplo para inserir uma imagem no README:
 
 ```markdown
 ![Demonstração do Nexus Bank Agent](docs/screenshot.png)
 ```
-![Demonstração de perguntas e Respostas da apliacação](docs/Nexus Bank - Agente Corporativo · Streamlit.pdf)
+📄 [Demonstração de perguntas e Respostas da apliacação](docs/Nexus Bank - Agente Corporativo · Streamlit.pdf)
 ---
 
 ## ☁️ Deploy na Streamlit Cloud
