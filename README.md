@@ -92,7 +92,7 @@ Quando uma pergunta é realizada:
 | **Python 3.10+**            | Linguagem principal                    |
 | **Streamlit**               | Interface web                          |
 | **Groq API**                | Inferência do modelo de linguagem      |
-| **LLaMA 3.3 70B Versatile** | Modelo de linguagem                    |
+| **openai/gpt-oss-120b**     | Modelo de linguagem                    |
 | **pypdf**                   | Processamento de PDFs                  |
 | **python-docx**             | Processamento de documentos DOCX       |
 | **python-pptx**             | Processamento de apresentações PPTX    |
