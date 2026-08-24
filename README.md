@@ -389,7 +389,7 @@ Exemplo para inserir uma imagem no README:
 ```markdown
 ![Demonstração do Nexus Bank Agent](docs/screenshot.png)
 ```
-📄 [Demonstração de perguntas e Respostas da apliacação](docs/Nexus Bank - Agente Corporativo · Streamlit.pdf)
+[Demonstração de perguntas e Respostas da apliacação](docs/Nexus Bank - Agente Corporativo · Streamlit.pdf)
 ---
 
 ## ☁️ Deploy na Streamlit Cloud
