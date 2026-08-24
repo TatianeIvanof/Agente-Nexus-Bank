@@ -406,7 +406,7 @@ A chave deve ser configurada como **Secret**, e não diretamente no código-font
 
 **Link de acesso:**
 
-https://nexus-bank-agent.streamlit.app
+https://agente-nexus-bank-nmfa9pvqrl9xphavkekehr.streamlit.app/
 
 > **Observação:** substitua o endereço acima pelo endereço real da aplicação após realizar o deploy.
 
